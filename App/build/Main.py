@@ -1,8 +1,8 @@
 from pathlib import Path
 import tkinter as tk
 
-HOME_ASSETS_PATH = Path(__file__).parent / Path(r"C:\Users\tiger\Desktop\BAC INFO\My Fac (INSAT)\RT3\Recherche Operationnelle\Projet\App\build\assets\frame1")
-ABOUT_ASSETS_PATH = Path(__file__).parent / Path(r"C:\Users\tiger\Desktop\BAC INFO\My Fac (INSAT)\RT3\Recherche Operationnelle\Projet\App\build\assets\frame0")
+HOME_ASSETS_PATH = Path(__file__).parent / "assets" / "frame1"
+ABOUT_ASSETS_PATH = Path(__file__).parent / "assets" / "frame0"
 
 def home_relative_to_assets(path: str) -> Path:
     return HOME_ASSETS_PATH / Path(path)
@@ -17,7 +17,7 @@ def show_frame(frame):
 # Main window
 window = tk.Tk()
 window.geometry("1200x720")
-window.title("OP_RECH_Project")
+window.title("Operation Research Project")
 
 # Home Frame
 home_frame = tk.Frame(window, bg="white")
