@@ -1,0 +1,93 @@
+{
+    "num_cities": 14,
+    "restricted_routes": "3-8,5-11,2-13",
+    "max_distance": 1000.0,
+    "vehicle_count": 1,
+    "priority_weight": 0.7,
+    "locations": [
+        {
+            "name": "Hotel",
+            "x": 0.0,
+            "y": 0.0,
+            "priority": 1
+        },
+        {
+            "name": "Castle",
+            "x": 75.0,
+            "y": 65.0,
+            "priority": 5
+        },
+        {
+            "name": "Cathedral",
+            "x": -45.0,
+            "y": 85.0,
+            "priority": 5
+        },
+        {
+            "name": "Museum",
+            "x": 35.0,
+            "y": -55.0,
+            "priority": 4
+        },
+        {
+            "name": "Garden",
+            "x": -65.0,
+            "y": -40.0,
+            "priority": 3
+        },
+        {
+            "name": "Plaza",
+            "x": 25.0,
+            "y": 95.0,
+            "priority": 4
+        },
+        {
+            "name": "Gallery",
+            "x": -85.0,
+            "y": 35.0,
+            "priority": 2
+        },
+        {
+            "name": "Theater",
+            "x": 90.0,
+            "y": -25.0,
+            "priority": 3
+        },
+        {
+            "name": "Park",
+            "x": -35.0,
+            "y": -75.0,
+            "priority": 2
+        },
+        {
+            "name": "Tower",
+            "x": 55.0,
+            "y": 45.0,
+            "priority": 5
+        },
+        {
+            "name": "Bridge",
+            "x": -70.0,
+            "y": -20.0,
+            "priority": 4
+        },
+        {
+            "name": "Square",
+            "x": 40.0,
+            "y": -90.0,
+            "priority": 3
+        },
+        {
+            "name": "Temple",
+            "x": -55.0,
+            "y": 55.0,
+            "priority": 5
+        },
+        {
+            "name": "Marina",
+            "x": 85.0,
+            "y": -60.0,
+            "priority": 2
+        }
+    ]
+}

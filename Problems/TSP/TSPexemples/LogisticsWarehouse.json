@@ -1,0 +1,70 @@
+{
+    "num_cities": 10,
+    "restricted_routes": "1-5,3-7,4-8",
+    "max_distance": 1000.0,
+    "vehicle_count": 3,
+    "priority_weight": 0.7,
+    "locations": [
+        {
+            "name": "Main Hub",
+            "x": 0.0,
+            "y": 0.0,
+            "priority": 5
+        },
+        {
+            "name": "Warehouse A",
+            "x": 23.5,
+            "y": 45.8,
+            "priority": 4
+        },
+        {
+            "name": "Warehouse B",
+            "x": -12.3,
+            "y": 67.4,
+            "priority": 4
+        },
+        {
+            "name": "Dist Center 1",
+            "x": 78.9,
+            "y": -34.2,
+            "priority": 3
+        },
+        {
+            "name": "Dist Center 2",
+            "x": -45.6,
+            "y": -23.1,
+            "priority": 3
+        },
+        {
+            "name": "Storage 1",
+            "x": 56.7,
+            "y": 89.0,
+            "priority": 2
+        },
+        {
+            "name": "Storage 2",
+            "x": -67.8,
+            "y": 12.3,
+            "priority": 2
+        },
+        {
+            "name": "Pickup Point",
+            "x": 34.5,
+            "y": -78.9,
+            "priority": 1
+        },
+        {
+            "name": "Returns Dept",
+            "x": -89.0,
+            "y": -56.7,
+            "priority": 1
+        },
+        {
+            "name": "Quality Check",
+            "x": 12.3,
+            "y": 34.5,
+            "priority": 2
+        }
+    ]
+
+}
