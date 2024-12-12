@@ -66,6 +66,7 @@ image_3 = home_canvas.create_image(
     image=image_image_3
 )
 
+# KNAPSACK
 button_image_1 = tk.PhotoImage(
     file=home_relative_to_assets("button_1.png"))
 button_1 = tk.Button(
@@ -77,12 +78,13 @@ button_1 = tk.Button(
     relief="flat"
 )
 button_1.place(
-    x=874.0,
+    x=282.0,
     y=381.0,
     width=250.0,
     height=241.0
 )
 
+# TSP
 button_image_2 = tk.PhotoImage(
     file=home_relative_to_assets("button_2.png"))
 button_2 = tk.Button(
@@ -94,14 +96,15 @@ button_2 = tk.Button(
     relief="flat"
 )
 button_2.place(
-    x=282.0,
+    x=578.0,
     y=381.0,
     width=250.0,
     height=241.0
 )
 
+# Facility Location
 button_image_3 = tk.PhotoImage(
-    file=home_relative_to_assets("button_3.png"))
+    file=home_relative_to_assets("button_5.png"))
 button_3 = tk.Button(
     home_frame,
     image=button_image_3,
@@ -111,7 +114,7 @@ button_3 = tk.Button(
     relief="flat"
 )
 button_3.place(
-    x=578.0,
+    x=874.0,
     y=381.0,
     width=250.0,
     height=241.0
@@ -119,7 +122,7 @@ button_3.place(
 
 # About us Button
 button_image_4 = tk.PhotoImage(
-    file=home_relative_to_assets("button_4.png"))
+    file=home_relative_to_assets("button_3.png"))
 button_4 = tk.Button(
     home_frame,
     image=button_image_4,
@@ -137,7 +140,7 @@ button_4.place(
 
 # Home Button
 button_image_5 = tk.PhotoImage(
-    file=home_relative_to_assets("button_5.png"))
+    file=home_relative_to_assets("button_4.png"))
 button_5 = tk.Button(
     home_frame,
     image=button_image_5,
