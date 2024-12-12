@@ -1,5 +1,6 @@
 from pathlib import Path
 import tkinter as tk
+import subprocess
 
 HOME_ASSETS_PATH = Path(__file__).parent / "assets" / "frame1"
 ABOUT_ASSETS_PATH = Path(__file__).parent / "assets" / "frame0"
@@ -67,6 +68,9 @@ image_3 = home_canvas.create_image(
 )
 
 # KNAPSACK
+def open_knapsack_app():
+    subprocess.Popen(["python", str(Path(__file__).parent.parent.parent / "Problems" / "Problem Sac a dos" / "sacados.py")])
+
 button_image_1 = tk.PhotoImage(
     file=home_relative_to_assets("button_1.png"))
 button_1 = tk.Button(
@@ -74,7 +78,7 @@ button_1 = tk.Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print("button_1 clicked"),
+    command=open_knapsack_app,
     relief="flat"
 )
 button_1.place(
@@ -85,6 +89,9 @@ button_1.place(
 )
 
 # TSP
+def open_tsp_app():
+    subprocess.Popen(["python", str(Path(__file__).parent.parent.parent / "Problems" / "TSP" / "tspfinal.py")])
+    
 button_image_2 = tk.PhotoImage(
     file=home_relative_to_assets("button_2.png"))
 button_2 = tk.Button(
@@ -92,7 +99,7 @@ button_2 = tk.Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print("button_2 clicked"),
+    command=open_tsp_app,
     relief="flat"
 )
 button_2.place(
