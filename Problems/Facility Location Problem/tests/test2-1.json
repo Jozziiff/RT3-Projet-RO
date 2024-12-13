@@ -1,0 +1,9 @@
+{
+    "problem_type": "Non-Capacitated",
+    "alpha": 1.5,
+    "demand_points": [[1, 1], [4, 5], [7, 2]],
+    "demand_quantities": [100, 150, 200],
+    "facility_points": [[2, 3], [6, 4]],
+    "fixed_costs": [500, 700],
+    "budget": 1000
+}
